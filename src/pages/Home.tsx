@@ -2,7 +2,7 @@ const Home: React.FC = () => {
   const handleResumeDownload = () => {
     // Create a dummy resume download - in a real app, this would link to an actual PDF
     const link = document.createElement('a');
-    link.href = '/Ritik_Sharma_Resume.pdf';
+    link.href = 'public/Ritik_Sharma_Resume.pdf';
     link.download = 'Ritik_Sharma_Resume.pdf';
     // For demo purposes, we'll just show an alert
     alert('Resume download would start here. Please add your actual resume PDF to the public folder.');
