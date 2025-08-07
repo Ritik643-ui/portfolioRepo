@@ -22,7 +22,7 @@ const About: React.FC = () => {
               <div className="flex-shrink-0">
                 <div className="w-32 h-32 bg-primary-100 rounded-full flex items-center justify-center">
                   <img
-      src="/profilepic/profilePic.png"
+      src="public/profilepic/profilePic.png"
       alt="Ritik Sharma"
       className="object-cover w-full h-full"
     />
