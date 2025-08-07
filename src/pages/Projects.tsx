@@ -14,7 +14,7 @@ const Projects: React.FC = () => {
       title: "De Anza Gossips",
       description: "An anonymous and public social app that allows users to share thoughts and engage with the community while maintaining privacy.",
       techStack: ["Spring Boot", "React Native", "MySQL", "REST API"],
-      githubLink: "https://github.com/Ritik643-ui/de-anza-gossips",
+      githubLink: "https://github.com/Ritik643-ui/DeAnzaGosspisRepo",
       features: [
         "Anonymous posting system",
         "Real-time feed updates",
@@ -26,7 +26,7 @@ const Projects: React.FC = () => {
       title: "QuickNote AI",
       description: "An intelligent note summarization application that leverages AI to help users quickly digest and organize their notes.",
       techStack: ["Spring Boot", "OpenAI API", "MySQL", "React", "JWT Authentication"],
-      githubLink: "https://github.com/Ritik643-ui/quicknote-ai",
+      githubLink: "https://github.com/Ritik643-ui/QuickNoteAI",
       features: [
         "AI-powered note summarization",
         "User authentication system",
@@ -38,7 +38,7 @@ const Projects: React.FC = () => {
       title: "TravelBuddy",
       description: "A comprehensive full-stack travel booking application with modern deployment practices and scalable architecture.",
       techStack: ["Spring Boot", "Docker", "AWS", "React", "PostgreSQL"],
-      githubLink: "https://github.com/Ritik643-ui/travelbuddy",
+      githubLink: "https://github.com/Ritik643-ui/travelBuddyRepo",
       features: [
         "Travel booking system",
         "User profile management",
