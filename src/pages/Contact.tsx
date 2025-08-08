@@ -61,7 +61,7 @@ const Contact: React.FC = () => {
       ),
       label: 'LinkedIn',
       value: 'Connect on LinkedIn',
-      link: 'https://linkedin.com/in/ritik-sharma'
+      link: 'https://www.linkedin.com/in/ritik-sharma-19537131b'
     }
   ];
 
