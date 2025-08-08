@@ -1,12 +1,4 @@
 const Home: React.FC = () => {
-  const handleResumeDownload = () => {
-    // Create a dummy resume download - in a real app, this would link to an actual PDF
-    const link = document.createElement('a');
-    link.href = 'public/Ritik_Sharma_Resume.pdf';
-    link.download = 'Ritik_Sharma_Resume.pdf';
-    // For demo purposes, we'll just show an alert
-    alert('Resume download would start here. Please add your actual resume PDF to the public folder.');
-  };
 
   return (
     <div className="min-h-screen bg-gradient-to-br from-blue-50 to-white">
@@ -44,16 +36,16 @@ const Home: React.FC = () => {
 
           {/* Resume Download Button */}
           <div className="mb-16">
-<a
-  href="/Ritik_Sharma_Resume.pdf"
-  download
-  className="inline-flex items-center px-8 py-4 bg-primary-600 text-white font-semibold rounded-lg hover:bg-primary-700 transition-colors duration-200 shadow-lg hover:shadow-xl transform hover:-translate-y-1"
->
+            <a
+              href="/Ritik_Sharma_Resume.pdf"
+              download="Ritik_Sharma_Resume.pdf"
+              className="inline-flex items-center px-8 py-4 bg-primary-600 text-white font-semibold rounded-lg hover:bg-primary-700 transition-colors duration-200 shadow-lg hover:shadow-xl transform hover:-translate-y-1"
+            >
               <svg className="w-5 h-5 mr-2" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                 <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M12 10v6m0 0l-3-3m3 3l3-3m2 8H7a2 2 0 01-2-2V5a2 2 0 012-2h5.586a1 1 0 01.707.293l5.414 5.414a1 1 0 01.293.707V19a2 2 0 01-2 2z" />
               </svg>
               Download Resume
-            </button>
+            </a>
           </div>
 
           {/* Quick Stats */}
